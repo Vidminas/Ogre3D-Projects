@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ogre Program" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ogre Tutorial 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="Plugin_BSPSceneManagerStatic_d" />
+					<Add library="Plugin_OctreeSceneManagerStatic_d" />
+					<Add library="Plugin_ParticleFXStatic_d" />
+					<Add library="RenderSystem_GLStatic_d" />
+					<Add library="RenderSystem_Direct3D9Static_d" />
+					<Add library="OgreOverlayStatic_d" />
+					<Add library="OgreMainStatic_d" />
+					<Add library="FreeImage_d" />
+					<Add library="freetype_d" />
+					<Add library="zlib_d" />
+					<Add library="zziplib_d" />
+					<Add library="OIS_d" />
+					<Add library="wbemuuid" />
+					<Add library="dinput8" />
+					<Add library="dxguid" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="ws2_32" />
+					<Add library="glu32" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add library="dxerr9" />
+					<Add library="d3dx9_43" />
+					<Add library="d3d9" />
+					<Add library="d3dcompiler_43" />
+					<Add directory="C:/C++/OGRE-1.10.0/lib/Debug" />
+					<Add directory="C:/C++/OGRE-1.10.0/lib/Debug/opt" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ogre Tutorial 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Plugin_BSPSceneManagerStatic" />
+					<Add library="Plugin_OctreeSceneManagerStatic" />
+					<Add library="Plugin_ParticleFXStatic" />
+					<Add library="RenderSystem_GLStatic" />
+					<Add library="RenderSystem_Direct3D9Static" />
+					<Add library="OgreOverlayStatic" />
+					<Add library="OgreMainStatic" />
+					<Add library="FreeImage" />
+					<Add library="freetype" />
+					<Add library="zlib" />
+					<Add library="zziplib" />
+					<Add library="OIS" />
+					<Add library="wbemuuid" />
+					<Add library="dinput8" />
+					<Add library="dxguid" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="ws2_32" />
+					<Add library="glu32" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add library="dxerr9" />
+					<Add library="d3dx9_43" />
+					<Add library="d3d9" />
+					<Add library="d3dcompiler_43" />
+					<Add directory="C:/C++/OGRE-1.10.0/lib/Release" />
+					<Add directory="C:/C++/OGRE-1.10.0/lib/Release/opt" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/C++/OGRE-1.10.0/include" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OIS" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/Overlay" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/Plugins/BSPSceneManager" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/Plugins/OctreeSceneManager" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/Plugins/ParticleFX" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/RenderSystems/GL" />
+			<Add directory="C:/C++/OGRE-1.10.0/include/OGRE/RenderSystems/Direct3D9" />
+		</Compiler>
+		<Unit filename="OgreWin32Resources.res" />
+		<Unit filename="listeners.cpp" />
+		<Unit filename="listeners.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.hpp" />
+		<Unit filename="setup.cpp" />
+		<Unit filename="setup.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

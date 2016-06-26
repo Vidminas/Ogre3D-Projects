@@ -1,0 +1,2443 @@
+11:04:56: Creating resource group General
+11:04:56: Creating resource group Internal
+11:04:56: Creating resource group Autodetect
+11:04:56: SceneManagerFactory for type 'DefaultSceneManager' registered.
+11:04:56: Registering ResourceManager for type Material
+11:04:56: Registering ResourceManager for type Mesh
+11:04:56: Registering ResourceManager for type Skeleton
+11:04:56: MovableObjectFactory for type 'ParticleSystem' registered.
+11:04:56: ArchiveFactory for archive type FileSystem registered.
+11:04:56: ArchiveFactory for archive type Zip registered.
+11:04:56: ArchiveFactory for archive type EmbeddedZip registered.
+11:04:56: DDS codec registering
+11:04:56: FreeImage version: 3.15.3
+11:04:56: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+11:04:56: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic
+11:04:56: ETC codec registering
+11:04:56: Registering ResourceManager for type HighLevelGpuProgram
+11:04:56: Registering ResourceManager for type Compositor
+11:04:56: MovableObjectFactory for type 'Entity' registered.
+11:04:56: MovableObjectFactory for type 'Light' registered.
+11:04:56: MovableObjectFactory for type 'BillboardSet' registered.
+11:04:56: MovableObjectFactory for type 'ManualObject' registered.
+11:04:56: MovableObjectFactory for type 'BillboardChain' registered.
+11:04:56: MovableObjectFactory for type 'RibbonTrail' registered.
+11:04:56: *-*-* OGRE Initialising
+11:04:56: *-*-* Version 1.10.0unstable (Xalafu)
+11:04:56: Installing plugin: GL 3+ RenderSystem
+11:04:56: OpenGL 3+ Rendering Subsystem (ALPHA) created.
+11:04:56: Plugin successfully installed
+11:04:56: Installing plugin: Octree Scene Manager
+11:04:56: Plugin successfully installed
+11:04:56: Installing plugin: ParticleFX
+11:04:56: Particle Emitter Type 'Point' registered
+11:04:56: Particle Emitter Type 'Box' registered
+11:04:56: Particle Emitter Type 'Ellipsoid' registered
+11:04:56: Particle Emitter Type 'Cylinder' registered
+11:04:56: Particle Emitter Type 'Ring' registered
+11:04:56: Particle Emitter Type 'HollowEllipsoid' registered
+11:04:56: Particle Affector Type 'LinearForce' registered
+11:04:56: Particle Affector Type 'ColourFader' registered
+11:04:56: Particle Affector Type 'ColourFader2' registered
+11:04:56: Particle Affector Type 'ColourImage' registered
+11:04:56: Particle Affector Type 'ColourInterpolator' registered
+11:04:56: Particle Affector Type 'Scaler' registered
+11:04:56: Particle Affector Type 'Rotator' registered
+11:04:56: Particle Affector Type 'DirectionRandomiser' registered
+11:04:56: Particle Affector Type 'DeflectorPlane' registered
+11:04:56: Plugin successfully installed
+11:04:56: Installing plugin: BSP Scene Manager
+11:04:56: Plugin successfully installed
+11:04:56: Creating resource group Essential
+11:04:56: Added resource location 'Media/Packs/SdkTrays.zip' of type 'Zip' to resource group 'Essential'
+11:04:56: Added resource location 'Media' of type 'FileSystem' to resource group 'General'
+11:04:56: Added resource location 'Media/Materials/Scripts' of type 'FileSystem' to resource group 'General'
+11:04:56: Added resource location 'Media/Materials/Textures' of type 'FileSystem' to resource group 'General'
+11:04:56: Added resource location 'Media/Models' of type 'FileSystem' to resource group 'General'
+11:04:56: Creating resource group RTSS
+11:04:56: Added resource location 'Media/RTShaderLib' of type 'FileSystem' to resource group 'RTSS'
+11:04:56: Added resource location 'Media/RTShaderLib/GLSL' of type 'FileSystem' to resource group 'RTSS'
+11:04:56: Added resource location 'Media/RTShaderLib/GLSL150' of type 'FileSystem' to resource group 'RTSS'
+11:04:56: Added resource location 'Media/RTShaderLib/Materials' of type 'FileSystem' to resource group 'RTSS'
+11:04:56: CPU Identifier & Features
+11:04:56: -------------------------
+11:04:56:  *   CPU ID: AuthenticAMD: AMD FX(tm)-8350 Eight-Core Processor
+11:04:56:  *      SSE: yes
+11:04:56:  *     SSE2: yes
+11:04:56:  *     SSE3: yes
+11:04:56:  *      MMX: yes
+11:04:56:  *   MMXEXT: yes
+11:04:56:  *    3DNOW: no
+11:04:56:  * 3DNOWEXT: no
+11:04:56:  *     CMOV: yes
+11:04:56:  *      TSC: yes
+11:04:56:  *      FPU: yes
+11:04:56:  *      PRO: yes
+11:04:56:  *       HT: no
+11:04:56: -------------------------
+11:04:56: *** Starting Win32GL Subsystem ***
+11:04:56: GL3PlusRenderSystem::_createRenderWindow "TutorialApplication Render Window", 1024x768 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 displayFrequency=0 gamma=false vsync=true vsyncInterval=1 
+11:04:56: Created Win32Window 'TutorialApplication Render Window' : 1040x806, 32bpp
+11:04:56: GL_VERSION = 4.5.0 NVIDIA 347.25
+11:04:56: GL_VENDOR = NVIDIA Corporation
+11:04:56: GL_RENDERER = GeForce GTX 770/PCIe/SSE2
+11:04:56: GL_EXTENSIONS = 
+11:04:56: GL_AMD_multi_draw_indirect
+11:04:56: GL_AMD_seamless_cubemap_per_texture
+11:04:56: GL_ARB_arrays_of_arrays
+11:04:56: GL_ARB_base_instance
+11:04:56: GL_ARB_bindless_texture
+11:04:56: GL_ARB_blend_func_extended
+11:04:56: GL_ARB_buffer_storage
+11:04:56: GL_ARB_clear_buffer_object
+11:04:56: GL_ARB_clear_texture
+11:04:56: GL_ARB_clip_control
+11:04:56: GL_ARB_color_buffer_float
+11:04:56: GL_ARB_compatibility
+11:04:56: GL_ARB_compressed_texture_pixel_storage
+11:04:56: GL_ARB_conservative_depth
+11:04:56: GL_ARB_compute_shader
+11:04:56: GL_ARB_compute_variable_group_size
+11:04:56: GL_ARB_conditional_render_inverted
+11:04:56: GL_ARB_copy_buffer
+11:04:56: GL_ARB_copy_image
+11:04:56: GL_ARB_cull_distance
+11:04:56: GL_ARB_debug_output
+11:04:56: GL_ARB_depth_buffer_float
+11:04:56: GL_ARB_depth_clamp
+11:04:56: GL_ARB_depth_texture
+11:04:56: GL_ARB_derivative_control
+11:04:56: GL_ARB_direct_state_access
+11:04:56: GL_ARB_draw_buffers
+11:04:56: GL_ARB_draw_buffers_blend
+11:04:56: GL_ARB_draw_indirect
+11:04:56: GL_ARB_draw_elements_base_vertex
+11:04:56: GL_ARB_draw_instanced
+11:04:56: GL_ARB_enhanced_layouts
+11:04:56: GL_ARB_ES2_compatibility
+11:04:56: GL_ARB_ES3_compatibility
+11:04:56: GL_ARB_ES3_1_compatibility
+11:04:56: GL_ARB_explicit_attrib_location
+11:04:56: GL_ARB_explicit_uniform_location
+11:04:56: GL_ARB_fragment_coord_conventions
+11:04:56: GL_ARB_fragment_layer_viewport
+11:04:56: GL_ARB_fragment_program
+11:04:56: GL_ARB_fragment_program_shadow
+11:04:56: GL_ARB_fragment_shader
+11:04:56: GL_ARB_framebuffer_no_attachments
+11:04:56: GL_ARB_framebuffer_object
+11:04:56: GL_ARB_framebuffer_sRGB
+11:04:56: GL_ARB_geometry_shader4
+11:04:56: GL_ARB_get_program_binary
+11:04:56: GL_ARB_get_texture_sub_image
+11:04:56: GL_ARB_gpu_shader5
+11:04:56: GL_ARB_gpu_shader_fp64
+11:04:56: GL_ARB_half_float_pixel
+11:04:56: GL_ARB_half_float_vertex
+11:04:56: GL_ARB_imaging
+11:04:56: GL_ARB_indirect_parameters
+11:04:56: GL_ARB_instanced_arrays
+11:04:56: GL_ARB_internalformat_query
+11:04:56: GL_ARB_internalformat_query2
+11:04:56: GL_NV_internalformat_sample_query
+11:04:56: GL_ARB_invalidate_subdata
+11:04:56: GL_ARB_map_buffer_alignment
+11:04:56: GL_ARB_map_buffer_range
+11:04:56: GL_ARB_multi_bind
+11:04:56: GL_ARB_multi_draw_indirect
+11:04:56: GL_ARB_multisample
+11:04:56: GL_ARB_multitexture
+11:04:56: GL_ARB_occlusion_query
+11:04:56: GL_ARB_occlusion_query2
+11:04:56: GL_ARB_pipeline_statistics_query
+11:04:56: GL_ARB_pixel_buffer_object
+11:04:56: GL_ARB_point_parameters
+11:04:56: GL_ARB_point_sprite
+11:04:56: GL_ARB_program_interface_query
+11:04:56: GL_ARB_provoking_vertex
+11:04:56: GL_ARB_robust_buffer_access_behavior
+11:04:56: GL_ARB_robustness
+11:04:56: GL_ARB_sample_shading
+11:04:56: GL_ARB_sampler_objects
+11:04:56: GL_ARB_seamless_cube_map
+11:04:56: GL_ARB_seamless_cubemap_per_texture
+11:04:56: GL_ARB_separate_shader_objects
+11:04:56: GL_ARB_shader_atomic_counters
+11:04:56: GL_ARB_shader_bit_encoding
+11:04:56: GL_ARB_shader_draw_parameters
+11:04:56: GL_ARB_shader_group_vote
+11:04:56: GL_ARB_shader_image_load_store
+11:04:56: GL_ARB_shader_image_size
+11:04:56: GL_ARB_shader_objects
+11:04:56: GL_ARB_shader_precision
+11:04:56: GL_ARB_query_buffer_object
+11:04:56: GL_ARB_shader_storage_buffer_object
+11:04:56: GL_ARB_shader_subroutine
+11:04:56: GL_ARB_shader_texture_image_samples
+11:04:56: GL_ARB_shader_texture_lod
+11:04:56: GL_ARB_shading_language_100
+11:04:56: GL_ARB_shading_language_420pack
+11:04:56: GL_ARB_shading_language_include
+11:04:56: GL_ARB_shading_language_packing
+11:04:56: GL_ARB_shadow
+11:04:56: GL_ARB_sparse_buffer
+11:04:56: GL_ARB_sparse_texture
+11:04:56: GL_ARB_stencil_texturing
+11:04:56: GL_ARB_sync
+11:04:56: GL_ARB_tessellation_shader
+11:04:56: GL_ARB_texture_barrier
+11:04:56: GL_ARB_texture_border_clamp
+11:04:56: GL_ARB_texture_buffer_object
+11:04:56: GL_ARB_texture_buffer_object_rgb32
+11:04:56: GL_ARB_texture_buffer_range
+11:04:56: GL_ARB_texture_compression
+11:04:56: GL_ARB_texture_compression_bptc
+11:04:56: GL_ARB_texture_compression_rgtc
+11:04:56: GL_ARB_texture_cube_map
+11:04:56: GL_ARB_texture_cube_map_array
+11:04:56: GL_ARB_texture_env_add
+11:04:56: GL_ARB_texture_env_combine
+11:04:56: GL_ARB_texture_env_crossbar
+11:04:56: GL_ARB_texture_env_dot3
+11:04:56: GL_ARB_texture_float
+11:04:56: GL_ARB_texture_gather
+11:04:56: GL_ARB_texture_mirror_clamp_to_edge
+11:04:56: GL_ARB_texture_mirrored_repeat
+11:04:56: GL_ARB_texture_multisample
+11:04:56: GL_ARB_texture_non_power_of_two
+11:04:56: GL_ARB_texture_query_levels
+11:04:56: GL_ARB_texture_query_lod
+11:04:56: GL_ARB_texture_rectangle
+11:04:56: GL_ARB_texture_rg
+11:04:56: GL_ARB_texture_rgb10_a2ui
+11:04:56: GL_ARB_texture_stencil8
+11:04:56: GL_ARB_texture_storage
+11:04:56: GL_ARB_texture_storage_multisample
+11:04:56: GL_ARB_texture_swizzle
+11:04:56: GL_ARB_texture_view
+11:04:56: GL_ARB_timer_query
+11:04:56: GL_ARB_transform_feedback2
+11:04:56: GL_ARB_transform_feedback3
+11:04:56: GL_ARB_transform_feedback_instanced
+11:04:56: GL_ARB_transform_feedback_overflow_query
+11:04:56: GL_ARB_transpose_matrix
+11:04:56: GL_ARB_uniform_buffer_object
+11:04:56: GL_ARB_vertex_array_bgra
+11:04:56: GL_ARB_vertex_array_object
+11:04:56: GL_ARB_vertex_attrib_64bit
+11:04:56: GL_ARB_vertex_attrib_binding
+11:04:56: GL_ARB_vertex_buffer_object
+11:04:56: GL_ARB_vertex_program
+11:04:56: GL_ARB_vertex_shader
+11:04:56: GL_ARB_vertex_type_10f_11f_11f_rev
+11:04:56: GL_ARB_vertex_type_2_10_10_10_rev
+11:04:56: GL_ARB_viewport_array
+11:04:56: GL_ARB_window_pos
+11:04:56: GL_ATI_draw_buffers
+11:04:56: GL_ATI_texture_float
+11:04:56: GL_ATI_texture_mirror_once
+11:04:56: GL_S3_s3tc
+11:04:56: GL_EXT_texture_env_add
+11:04:56: GL_EXT_abgr
+11:04:56: GL_EXT_bgra
+11:04:56: GL_EXT_bindable_uniform
+11:04:56: GL_EXT_blend_color
+11:04:56: GL_EXT_blend_equation_separate
+11:04:56: GL_EXT_blend_func_separate
+11:04:56: GL_EXT_blend_minmax
+11:04:56: GL_EXT_blend_subtract
+11:04:56: GL_EXT_compiled_vertex_array
+11:04:56: GL_EXT_Cg_shader
+11:04:56: GL_EXT_depth_bounds_test
+11:04:56: GL_EXT_direct_state_access
+11:04:56: GL_EXT_draw_buffers2
+11:04:56: GL_EXT_draw_instanced
+11:04:56: GL_EXT_draw_range_elements
+11:04:56: GL_EXT_fog_coord
+11:04:56: GL_EXT_framebuffer_blit
+11:04:56: GL_EXT_framebuffer_multisample
+11:04:56: GL_EXTX_framebuffer_mixed_formats
+11:04:56: GL_EXT_framebuffer_multisample_blit_scaled
+11:04:56: GL_EXT_framebuffer_object
+11:04:56: GL_EXT_framebuffer_sRGB
+11:04:56: GL_EXT_geometry_shader4
+11:04:56: GL_EXT_gpu_program_parameters
+11:04:56: GL_EXT_gpu_shader4
+11:04:56: GL_EXT_multi_draw_arrays
+11:04:56: GL_EXT_packed_depth_stencil
+11:04:56: GL_EXT_packed_float
+11:04:56: GL_EXT_packed_pixels
+11:04:57: GL_EXT_pixel_buffer_object
+11:04:57: GL_EXT_point_parameters
+11:04:57: GL_EXT_polygon_offset_clamp
+11:04:57: GL_EXT_provoking_vertex
+11:04:57: GL_EXT_rescale_normal
+11:04:57: GL_EXT_secondary_color
+11:04:57: GL_EXT_separate_shader_objects
+11:04:57: GL_EXT_separate_specular_color
+11:04:57: GL_EXT_shader_image_load_store
+11:04:57: GL_EXT_shader_integer_mix
+11:04:57: GL_EXT_shadow_funcs
+11:04:57: GL_EXT_stencil_two_side
+11:04:57: GL_EXT_stencil_wrap
+11:04:57: GL_EXT_texture3D
+11:04:57: GL_EXT_texture_array
+11:04:57: GL_EXT_texture_buffer_object
+11:04:57: GL_EXT_texture_compression_dxt1
+11:04:57: GL_EXT_texture_compression_latc
+11:04:57: GL_EXT_texture_compression_rgtc
+11:04:57: GL_EXT_texture_compression_s3tc
+11:04:57: GL_EXT_texture_cube_map
+11:04:57: GL_EXT_texture_edge_clamp
+11:04:57: GL_EXT_texture_env_combine
+11:04:57: GL_EXT_texture_env_dot3
+11:04:57: GL_EXT_texture_filter_anisotropic
+11:04:57: GL_EXT_texture_integer
+11:04:57: GL_EXT_texture_lod
+11:04:57: GL_EXT_texture_lod_bias
+11:04:57: GL_EXT_texture_mirror_clamp
+11:04:57: GL_EXT_texture_object
+11:04:57: GL_EXT_texture_shared_exponent
+11:04:57: GL_EXT_texture_sRGB
+11:04:57: GL_EXT_texture_sRGB_decode
+11:04:57: GL_EXT_texture_storage
+11:04:57: GL_EXT_texture_swizzle
+11:04:57: GL_EXT_timer_query
+11:04:57: GL_EXT_transform_feedback2
+11:04:57: GL_EXT_vertex_array
+11:04:57: GL_EXT_vertex_array_bgra
+11:04:57: GL_EXT_vertex_attrib_64bit
+11:04:57: GL_EXT_import_sync_object
+11:04:57: GL_IBM_rasterpos_clip
+11:04:57: GL_IBM_texture_mirrored_repeat
+11:04:57: GL_KHR_context_flush_control
+11:04:57: GL_KHR_debug
+11:04:57: GL_KHR_robust_buffer_access_behavior
+11:04:57: GL_KHR_robustness
+11:04:57: GL_KTX_buffer_region
+11:04:57: GL_NV_bindless_multi_draw_indirect
+11:04:57: GL_NV_bindless_multi_draw_indirect_count
+11:04:57: GL_NV_bindless_texture
+11:04:57: GL_NV_blend_equation_advanced
+11:04:57: GL_NV_blend_square
+11:04:57: GL_NV_compute_program5
+11:04:57: GL_NV_conditional_render
+11:04:57: GL_NV_copy_depth_to_color
+11:04:57: GL_NV_copy_image
+11:04:57: GL_NV_depth_buffer_float
+11:04:57: GL_NV_depth_clamp
+11:04:57: GL_NV_draw_texture
+11:04:57: GL_NV_ES1_1_compatibility
+11:04:57: GL_NV_ES3_1_compatibility
+11:04:57: GL_NV_explicit_multisample
+11:04:57: GL_NV_fence
+11:04:57: GL_NV_float_buffer
+11:04:57: GL_NV_fog_distance
+11:04:57: GL_NV_fragment_program
+11:04:57: GL_NV_fragment_program_option
+11:04:57: GL_NV_fragment_program2
+11:04:57: GL_NV_framebuffer_multisample_coverage
+11:04:57: GL_NV_geometry_shader4
+11:04:57: GL_NV_gpu_program4
+11:04:57: GL_NV_gpu_program4_1
+11:04:57: GL_NV_gpu_program5
+11:04:57: GL_NV_gpu_program5_mem_extended
+11:04:57: GL_NV_gpu_program_fp64
+11:04:57: GL_NV_gpu_shader5
+11:04:57: GL_NV_half_float
+11:04:57: GL_NV_light_max_exponent
+11:04:57: GL_NV_multisample_coverage
+11:04:57: GL_NV_multisample_filter_hint
+11:04:57: GL_NV_occlusion_query
+11:04:57: GL_NV_packed_depth_stencil
+11:04:57: GL_NV_parameter_buffer_object
+11:04:57: GL_NV_parameter_buffer_object2
+11:04:57: GL_NV_path_rendering
+11:04:57: GL_NV_pixel_data_range
+11:04:57: GL_NV_point_sprite
+11:04:57: GL_NV_primitive_restart
+11:04:57: GL_NV_register_combiners
+11:04:57: GL_NV_register_combiners2
+11:04:57: GL_NV_shader_atomic_counters
+11:04:57: GL_NV_shader_atomic_float
+11:04:57: GL_NV_shader_buffer_load
+11:04:57: GL_NV_shader_storage_buffer_object
+11:04:57: GL_NV_texgen_reflection
+11:04:57: GL_NV_texture_barrier
+11:04:57: GL_NV_texture_compression_vtc
+11:04:57: GL_NV_texture_env_combine4
+11:04:57: GL_NV_texture_multisample
+11:04:57: GL_NV_texture_rectangle
+11:04:57: GL_NV_texture_shader
+11:04:57: GL_NV_texture_shader2
+11:04:57: GL_NV_texture_shader3
+11:04:57: GL_NV_transform_feedback
+11:04:57: GL_NV_transform_feedback2
+11:04:57: GL_NV_uniform_buffer_unified_memory
+11:04:57: GL_NV_vertex_array_range
+11:04:57: GL_NV_vertex_array_range2
+11:04:57: GL_NV_vertex_attrib_integer_64bit
+11:04:57: GL_NV_vertex_buffer_unified_memory
+11:04:57: GL_NV_vertex_program
+11:04:57: GL_NV_vertex_program1_1
+11:04:57: GL_NV_vertex_program2
+11:04:57: GL_NV_vertex_program2_option
+11:04:57: GL_NV_vertex_program3
+11:04:57: GL_NVX_conditional_render
+11:04:57: GL_NVX_gpu_memory_info
+11:04:57: GL_NVX_nvenc_interop
+11:04:57: GL_NV_shader_thread_group
+11:04:57: GL_NV_shader_thread_shuffle
+11:04:57: GL_KHR_blend_equation_advanced
+11:04:57: GL_SGIS_generate_mipmap
+11:04:57: GL_SGIS_texture_lod
+11:04:57: GL_SGIX_depth_texture
+11:04:57: GL_SGIX_shadow
+11:04:57: GL_SUN_slice_accum
+11:04:57: GL_WIN_swap_hint
+11:04:57: WGL_EXT_swap_control
+11:04:57: Supported WGL extensions: WGL_ARB_buffer_region WGL_ARB_create_context WGL_ARB_create_context_profile WGL_ARB_create_context_robustness WGL_ARB_context_flush_control WGL_ARB_extensions_string WGL_ARB_make_current_read WGL_ARB_multisample WGL_ARB_pbuffer WGL_ARB_pixel_format WGL_ARB_pixel_format_float WGL_ARB_render_texture WGL_ATI_pixel_format_float WGL_EXT_create_context_es_profile WGL_EXT_create_context_es2_profile WGL_EXT_extensions_string WGL_EXT_framebuffer_sRGB WGL_EXT_pixel_format_packed_float WGL_EXT_swap_control WGL_EXT_swap_control_tear WGL_NVX_DX_interop WGL_NV_DX_interop WGL_NV_DX_interop2 WGL_NV_copy_image WGL_NV_delay_before_swap WGL_NV_float_buffer WGL_NV_multisample_coverage WGL_NV_render_depth_texture WGL_NV_render_texture_rectangle 
+11:04:57: **************************************
+11:04:57: ***   OpenGL 3+ Renderer Started   ***
+11:04:57: **************************************
+11:04:57: Registering ResourceManager for type GpuProgram
+11:04:57: GL3+: Using FBOs for rendering to textures
+11:04:57: FBO PF_UNKNOWN depth/stencil support: D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_L8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_L16 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: OpenGL error 0x0502 GL_INVALID_OPERATION in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:57: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A8B8G8R8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8G8B8A8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_DEPTH depth/stencil support: D0S0 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R11G11B10_FLOAT depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8G8_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8G8B8_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:57: FBO PF_R8G8B8A8_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16B16_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16B16A16_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32B32_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32B32A32_UINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R8_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R8G8_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R8G8B8_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R8G8B8A8_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16B16_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R16G16B16A16_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32B32_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: FBO PF_R32G32B32A32_SINT depth/stencil support: D0S0 D0S8 D24S0 D32S0 D32S0 Packed-D24S8 Packed-D32S8 
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: OpenGL error 0x0500 GL_INVALID_ENUM in void Ogre::GL3PlusFBOManager::_createTempFramebuffer(int, GLuint, GLuint, GLenum, GLuint&, GLuint&) at line 175 for glTexImage2D
+
+11:04:58: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_BYTE_LA PF_R5G6B5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_A8B8G8R8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_R8G8B8A8 PF_DEPTH PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB PF_R11G11B10_FLOAT PF_R8_UINT PF_R8G8_UINT PF_R8G8B8_UINT PF_R8G8B8A8_UINT PF_R16_UINT PF_R16G16_UINT PF_R16G16B16_UINT PF_R16G16B16A16_UINT PF_R32_UINT PF_R32G32_UINT PF_R32G32B32_UINT PF_R32G32B32A32_UINT PF_R8_SINT PF_R8G8_SINT PF_R8G8B8_SINT PF_R8G8B8A8_SINT PF_R16_SINT PF_R16G16_SINT PF_R16G16B16_SINT PF_R16G16B16A16_SINT PF_R32_SINT PF_R32G32_SINT PF_R32G32B32_SINT PF_R32G32B32A32_SINT 
+11:04:58: RenderSystem capabilities
+11:04:58: -------------------------
+11:04:58: RenderSystem Name: OpenGL 3+ Rendering Subsystem (ALPHA)
+11:04:58: GPU Vendor: nvidia
+11:04:58: Device Name: GeForce GTX 770/PCIe/SSE2
+11:04:58: Driver Version: 4.5.0.0
+11:04:58:  * Fixed function pipeline: no
+11:04:58:  * Hardware generation of mipmaps: yes
+11:04:58:  * Texture blending: yes
+11:04:58:  * Anisotropic texture filtering: yes
+11:04:58:  * Dot product texture operation: yes
+11:04:58:  * Cube mapping: yes
+11:04:58:  * Hardware stencil buffer: yes
+11:04:58:    - Stencil depth: 8
+11:04:58:    - Two sided stencil support: yes
+11:04:58:    - Wrap stencil values: yes
+11:04:58:  * Hardware vertex / index buffers: yes
+11:04:58:  * 32-bit index buffers: yes
+11:04:58:  * Vertex programs: yes
+11:04:58:  * Number of floating-point constants for vertex programs: 4096
+11:04:58:  * Number of integer constants for vertex programs: 4096
+11:04:58:  * Number of boolean constants for vertex programs: 4096
+11:04:58:  * Fragment programs: yes
+11:04:58:  * Number of floating-point constants for fragment programs: 2048
+11:04:58:  * Number of integer constants for fragment programs: 2048
+11:04:58:  * Number of boolean constants for fragment programs: 2048
+11:04:58:  * Geometry programs: yes
+11:04:58:  * Number of floating-point constants for geometry programs: 2048
+11:04:58:  * Number of integer constants for geometry programs: 2048
+11:04:58:  * Number of boolean constants for geometry programs: 2048
+11:04:58:  * Tessellation Hull programs: yes
+11:04:58:  * Number of floating-point constants for tessellation hull programs: 2048
+11:04:58:  * Number of integer constants for tessellation hull programs: 2048
+11:04:58:  * Number of boolean constants for tessellation hull programs: 2048
+11:04:58:  * Tessellation Domain programs: yes
+11:04:58:  * Number of floating-point constants for tessellation domain programs: 2048
+11:04:58:  * Number of integer constants for tessellation domain programs: 2048
+11:04:58:  * Number of boolean constants for tessellation domain programs: 2048
+11:04:58:  * Compute programs: yes
+11:04:58:  * Number of floating-point constants for compute programs: 2048
+11:04:58:  * Number of integer constants for compute programs: 2048
+11:04:58:  * Number of boolean constants for compute programs: 2048
+11:04:58:  * Supported Shader Profiles: glsl glsl130 glsl140 glsl150 glsl330 glsl400 glsl410 glsl420 glsl430 glsl440
+11:04:58:  * Texture Compression: yes
+11:04:58:    - DXT: yes
+11:04:58:    - VTC: yes
+11:04:58:    - PVRTC: no
+11:04:58:    - ATC: no
+11:04:58:    - ETC1: no
+11:04:58:    - ETC2: yes
+11:04:58:    - BC4/BC5: yes
+11:04:58:    - BC6H/BC7: yes
+11:04:58:  * Scissor Rectangle: yes
+11:04:58:  * Hardware Occlusion Query: yes
+11:04:58:  * User clip planes: yes
+11:04:58:  * VET_UBYTE4 vertex element type: yes
+11:04:58:  * Infinite far plane projection: yes
+11:04:58:  * Hardware render-to-texture: yes
+11:04:58:  * Floating point textures: yes
+11:04:58:  * Non-power-of-two textures: yes
+11:04:58:  * 1d textures: yes
+11:04:58:  * Volume textures: yes
+11:04:58:  * Multiple Render Targets: 8
+11:04:58:    - With different bit depths: yes
+11:04:58:  * Point Sprites: yes
+11:04:58:  * Extended point parameters: yes
+11:04:58:  * Max Point Size: 189.875
+11:04:58:  * Vertex texture fetch: yes
+11:04:58:  * Number of world matrices: 0
+11:04:58:  * Number of texture units: 16
+11:04:58:  * Stencil buffer depth: 8
+11:04:58:  * Number of vertex blend matrices: 0
+11:04:58:    - Max vertex textures: 32
+11:04:58:    - Vertex textures shared: yes
+11:04:58:  * Render to Vertex Buffer : yes
+11:04:58:  * Hardware Atomic Counters: yes
+11:04:58:  * GL 1.5 without VBO workaround: no
+11:04:58:  * Frame Buffer objects: yes
+11:04:58:  * Frame Buffer objects (ARB extension): no
+11:04:58:  * Frame Buffer objects (ATI extension): no
+11:04:58:  * PBuffer support: no
+11:04:58:  * GL 1.5 without HW-occlusion workaround: no
+11:04:58:  * Vertex Array Objects: yes
+11:04:58:  * Separate shader objects: yes
+11:04:58: Registering ResourceManager for type Texture
+11:04:58: DefaultWorkQueue('Root') initialising on thread main.
+11:04:58: Particle Renderer Type 'billboard' registered
+11:04:58: OpenGL:message(°@n) 131185: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(0?n) 131185: Buffer detailed info: Buffer object 2 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(p>n) 131185: Buffer detailed info: Buffer object 3 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(°=n) 131185: Buffer detailed info: Buffer object 4 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(p8n) 131185: Buffer detailed info: Buffer object 5 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 5 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 5 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(0Bn) 131185: Buffer detailed info: Buffer object 6 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 6 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 6 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: SceneManagerFactory for type 'OctreeSceneManager' registered.
+11:04:58: SceneManagerFactory for type 'BspSceneManager' registered.
+11:04:58: Registering ResourceManager for type BspLevel
+11:04:58: OverlayElementFactory for type Panel registered.
+11:04:58: OverlayElementFactory for type BorderPanel registered.
+11:04:58: OverlayElementFactory for type TextArea registered.
+11:04:58: Registering ResourceManager for type Font
+11:04:58: Creating resource group ShaderGeneratorResourceGroup
+11:04:58: Added resource location 'Media/RTShaderLib/cache/' of type 'FileSystem' to resource group 'ShaderGeneratorResourceGroup'
+11:04:58: Parsing scripts for resource group Autodetect
+11:04:58: Finished parsing scripts for resource group Autodetect
+11:04:58: Creating resources for group Autodetect
+11:04:58: All done
+11:04:58: Parsing scripts for resource group Essential
+11:04:58: Parsing script SdkTrays.material
+11:04:58: Parsing script SdkTrays.fontdef
+11:04:58: Parsing script SdkTrays.overlay
+11:04:58: Texture: sdk_cursor.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message(pDn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_tray.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+11:04:58: OpenGL:message(ðEn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_button_up.png: Loading 1 faces(PF_A8R8G8B8,128x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x32x1.
+11:04:58: OpenGL:message(pGn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_text_box.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message(ðHn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_mini_tray.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message(pJn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_track.png: Loading 1 faces(PF_A8R8G8B8,16x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x32x1.
+11:04:58: OpenGL:message(ðKn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_handle.png: Loading 1 faces(PF_A8R8G8B8,16x16x1) with 4 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,16x16x1.
+11:04:58: OpenGL:message(ðNn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_mini_text_box.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message(pPn) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_label.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_separator.png: Loading 1 faces(PF_A8R8G8B8,64x16x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x16x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_logo.png: Loading 1 faces(PF_A8R8G8B8,128x64x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x64x1.
+11:04:58: OpenGL:message( 	y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_shade.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x48x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_frame.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_mini_text_box_over.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Texture: sdk_pulse.png: Loading 1 faces(PF_R8G8B8,8x1x1) with 3 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,8x1x1.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 7 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Finished parsing scripts for resource group Essential
+11:04:58: Creating resources for group Essential
+11:04:58: All done
+11:04:58: Parsing scripts for resource group General
+11:04:58: Parsing script Ogre.material
+11:04:58: Finished parsing scripts for resource group General
+11:04:58: Creating resources for group General
+11:04:58: All done
+11:04:58: Parsing scripts for resource group Internal
+11:04:58: Finished parsing scripts for resource group Internal
+11:04:58: Creating resources for group Internal
+11:04:58: All done
+11:04:58: Parsing scripts for resource group RTSS
+11:04:58: Parsing script DualQuaternionSkinning_Shadow.material
+11:04:58: Parsing script HardwareSkinningShadow.material
+11:04:58: Parsing script RTShaderSystem.material
+11:04:58: Parsing script TriplanarTexturing.material
+11:04:58: Finished parsing scripts for resource group RTSS
+11:04:58: Creating resources for group RTSS
+11:04:58: All done
+11:04:58: Parsing scripts for resource group ShaderGeneratorResourceGroup
+11:04:58: Finished parsing scripts for resource group ShaderGeneratorResourceGroup
+11:04:58: Creating resources for group ShaderGeneratorResourceGroup
+11:04:58: All done
+11:04:58: *** Initializing OIS ***
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 10 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 10 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 10 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 14 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 14 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 14 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 18 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 18 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 18 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ày) 131185: Buffer detailed info: Buffer object 22 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 22 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 22 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(`y) 131185: Buffer detailed info: Buffer object 26 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 26 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 26 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 30 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 30 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 30 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 34 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 34 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 34 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 38 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 38 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 38 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 42 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 42 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 42 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(  y) 131185: Buffer detailed info: Buffer object 52 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 52 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 52 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( !y) 131185: Buffer detailed info: Buffer object 60 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 60 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 60 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( #y) 131185: Buffer detailed info: Buffer object 69 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 69 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 69 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message( $y) 131185: Buffer detailed info: Buffer object 44 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 44 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 44 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Pú') 131185: Buffer detailed info: Buffer object 70 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 70 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 70 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ðû') 131185: Buffer detailed info: Buffer object 8 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 8 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 8 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Pý') 131185: Buffer detailed info: Buffer object 7 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 7 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 7 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ðþ') 131185: Buffer detailed info: Buffer object 71 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 71 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 71 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P) 131185: Buffer detailed info: Buffer object 9 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 9 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 9 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 12 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 12 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 12 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 11 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 11 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 11 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 72 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 72 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 72 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 13 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 13 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 13 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 16 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 16 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 16 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P	() 131185: Buffer detailed info: Buffer object 15 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 15 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 15 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð
+() 131185: Buffer detailed info: Buffer object 73 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 73 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 73 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 17 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 17 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 17 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 20 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 20 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 20 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 19 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 19 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 19 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 74 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 74 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 74 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 21 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 21 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 21 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 24 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 24 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 24 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 23 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 23 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 23 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Ð() 131185: Buffer detailed info: Buffer object 75 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 75 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 75 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(P() 131185: Buffer detailed info: Buffer object 25 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 25 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 25 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðk() 131185: Buffer detailed info: Buffer object 28 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 28 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 28 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(pm() 131185: Buffer detailed info: Buffer object 27 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 27 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 27 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðn() 131185: Buffer detailed info: Buffer object 76 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 76 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 76 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(pp() 131185: Buffer detailed info: Buffer object 29 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 29 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 29 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðq() 131185: Buffer detailed info: Buffer object 32 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 32 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 32 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ps() 131185: Buffer detailed info: Buffer object 31 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 31 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 31 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðt() 131185: Buffer detailed info: Buffer object 77 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 77 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 77 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(pv() 131185: Buffer detailed info: Buffer object 33 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 33 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 33 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðw() 131185: Buffer detailed info: Buffer object 50 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 50 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 50 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(py() 131185: Buffer detailed info: Buffer object 49 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 49 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 49 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðz() 131185: Buffer detailed info: Buffer object 78 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 78 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 78 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(p|() 131185: Buffer detailed info: Buffer object 51 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 51 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 51 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ð}() 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: OpenGL:message(°~() 131185: Buffer detailed info: Buffer object 48 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 48 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: OpenGL:message(p() 131185: Buffer detailed info: Buffer object 58 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 58 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 58 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ð€() 131185: Buffer detailed info: Buffer object 57 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 57 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 57 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(p‚() 131185: Buffer detailed info: Buffer object 79 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 79 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 79 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(ðƒ() 131185: Buffer detailed info: Buffer object 59 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 59 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message() 131185: Buffer detailed info: Buffer object 59 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:58: OpenGL:message(p…() 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: OpenGL:message(0†() 131185: Buffer detailed info: Buffer object 53 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 53 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: OpenGL:message(ð†() 131185: Buffer detailed info: Buffer object 55 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 55 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: OpenGL:message(°‡() 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Font SdkTrays/Caption using texture size 512x256
+11:04:58: Info: Freetype returned null for character 160 in font SdkTrays/Caption
+11:04:58: Texture: SdkTrays/CaptionTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+11:04:58: OpenGL:message(0‰() 131185: Buffer detailed info: Buffer object 54 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:58: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 54 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:58: Font SdkTrays/Value using texture size 512x256
+11:04:59: Info: Freetype returned null for character 127 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 128 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 129 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 130 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 131 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 132 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 133 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 134 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 135 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 136 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 137 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 138 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 139 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 140 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 141 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 142 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 143 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 144 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 145 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 146 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 147 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 148 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 149 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 150 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 151 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 152 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 153 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 154 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 155 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 156 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 157 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 158 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 159 in font SdkTrays/Value
+11:04:59: Info: Freetype returned null for character 160 in font SdkTrays/Value
+11:04:59: Texture: SdkTrays/ValueTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) Internal format is PF_BYTE_LA,512x256x1.
+11:04:59: OpenGL:message(°Š() 131185: Buffer detailed info: Buffer object 54 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 54 (bound to GL_PIXEL_UNPACK_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 36 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 36 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 36 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 35 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 35 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 35 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message( y) 131185: Buffer detailed info: Buffer object 54 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 54 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 54 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€¹() 131185: Buffer detailed info: Buffer object 37 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 37 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 37 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 40 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 40 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 40 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€¼() 131185: Buffer detailed info: Buffer object 39 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 39 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 39 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 81 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 81 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 81 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€¿() 131185: Buffer detailed info: Buffer object 41 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 41 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 41 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 61 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 61 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 61 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€Â() 131185: Buffer detailed info: Buffer object 82 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 82 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 82 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 43 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 43 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 43 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€Å() 131185: Buffer detailed info: Buffer object 67 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 67 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 67 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 66 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 66 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 66 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(€È() 131185: Buffer detailed info: Buffer object 83 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 83 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 83 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 68 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 68 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 68 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: OpenGL:message(@Ì() 131185: Buffer detailed info: Buffer object 84 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 84 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message(€Ë() 131185: Buffer detailed info: Buffer object 62 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 62 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 63 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 63 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message(ÀÍ() 131185: Buffer detailed info: Buffer object 64 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 64 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:performance(medium) 131186: Buffer performance warning: Buffer object 34 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) is being copied/moved from VIDEO memory to HOST memory.
+11:04:59: OpenGL:message(¨') 131185: Buffer detailed info: Buffer object 34 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:performance(medium) 131186: Buffer performance warning: Buffer object 60 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) is being copied/moved from VIDEO memory to HOST memory.
+11:04:59: OpenGL:message((š') 131185: Buffer detailed info: Buffer object 60 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:performance(medium) 131186: Buffer performance warning: Buffer object 52 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) is being copied/moved from VIDEO memory to HOST memory.
+11:04:59: OpenGL:message(8P') 131185: Buffer detailed info: Buffer object 52 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:performance(medium) 131186: Buffer performance warning: Buffer object 42 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) is being copied/moved from VIDEO memory to HOST memory.
+11:04:59: OpenGL:message(˜A') 131185: Buffer detailed info: Buffer object 42 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message(ÀÓ() 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message(€Ô() 131185: Buffer detailed info: Buffer object 55 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:04:59: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 55 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message() 131185: Buffer detailed info: Buffer object 84 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:04:59: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message(À)) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:05:00: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message(€)) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) will use SYSTEM HEAP memory as the source for buffer object operations.
+11:05:00: OpenGL:message(Àßî) 131185: Buffer detailed info: Buffer object 65 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 47 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 80 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: OpenGL:message( E) 131185: Buffer detailed info: Buffer object 56 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_DRAW) has been mapped WRITE_ONLY in SYSTEM HEAP memory (fast).
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:00: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: ERROR: Failed to create separable program.
+11:05:01: Unregistering ResourceManager for type Font
+11:05:01: DefaultWorkQueue('Root') shutting down on thread main.
+11:05:01: Unregistering ResourceManager for type BspLevel
+11:05:01: *-*-* OGRE Shutdown
+11:05:01: Unregistering ResourceManager for type Compositor
+11:05:01: Unregistering ResourceManager for type Skeleton
+11:05:01: Unregistering ResourceManager for type Mesh
+11:05:01: Unregistering ResourceManager for type HighLevelGpuProgram
+11:05:01: Unregistering ResourceManager for type GpuProgram
+11:05:01: OpenGL error 0x0502 GL_INVALID_OPERATION in virtual Ogre::GL3PlusFBOManager::~GL3PlusFBOManager() at line 150 for glDeleteFramebuffers
+
+11:05:01: OpenGL error 0x0502 GL_INVALID_OPERATION in virtual Ogre::GL3PlusFBOManager::~GL3PlusFBOManager() at line 150 for glDeleteFramebuffers
+
+11:05:01: Unregistering ResourceManager for type Texture
+11:05:01: OpenGL error 0x0502 GL_INVALID_OPERATION in virtual Ogre::GL3PlusTextureManager::~GL3PlusTextureManager() at line 50 for glDeleteTextures
+
+11:05:01: *** Stopping Win32GL Subsystem ***
+11:05:01: Unregistering ResourceManager for type Material

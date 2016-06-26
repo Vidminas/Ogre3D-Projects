@@ -1,0 +1,69 @@
+<skeleton >
+  <bones >
+    <bone id="0" name="Back_Bone" >
+      <position x="6.989821" y="-0.000001" z="0.000000" />
+      <rotation angle="2.094395" >
+        <axis x="-0.577350" y="0.577350" z="0.577350" />
+      </rotation>
+    </bone>
+    <bone id="1" name="Right_Arm" >
+      <position x="0.000000" y="7.000000" z="0.000000" />
+      <rotation angle="1.929199" >
+        <axis x="0.695625" y="-0.507128" z="-0.508849" />
+      </rotation>
+    </bone>
+    <bone id="2" name="Right_Leg_2" >
+      <position x="0.000000" y="3.005246" z="-0.000000" />
+      <rotation angle="2.907486" >
+        <axis x="-0.117529" y="-0.702172" z="-0.702240" />
+      </rotation>
+    </bone>
+    <bone id="3" name="Right_Leg_1" >
+      <position x="0.000000" y="4.197722" z="-0.000000" />
+      <rotation angle="1.359213" >
+        <axis x="0.003788" y="0.001451" z="0.999992" />
+      </rotation>
+    </bone>
+    <bone id="4" name="Right_Foot" >
+      <position x="-0.000000" y="9.279557" z="-0.000000" />
+      <rotation angle="1.006254" >
+        <axis x="-0.009022" y="-0.000720" z="0.999959" />
+      </rotation>
+    </bone>
+    <bone id="5" name="Left_Arm" >
+      <position x="0.000000" y="7.000000" z="0.000000" />
+      <rotation angle="1.929199" >
+        <axis x="-0.695625" y="0.507128" z="-0.508849" />
+      </rotation>
+    </bone>
+    <bone id="6" name="Left_Leg_2" >
+      <position x="0.000000" y="3.005245" z="0.000000" />
+      <rotation angle="1.594970" >
+        <axis x="-0.972920" y="-0.153370" z="-0.172928" />
+      </rotation>
+    </bone>
+    <bone id="7" name="Left_Leg_1" >
+      <position x="-0.000000" y="4.197722" z="0.000000" />
+      <rotation angle="1.359444" >
+        <axis x="0.011416" y="-0.016952" z="-0.999791" />
+      </rotation>
+    </bone>
+    <bone id="8" name="Left_Foot" >
+      <position x="0.000000" y="9.279557" z="-0.000000" />
+      <rotation angle="1.006315" >
+        <axis x="-0.008521" y="0.010527" z="-0.999908" />
+      </rotation>
+    </bone>
+  </bones>
+  <bonehierarchy >
+    <boneparent bone="Right_Arm" parent="Back_Bone" />
+    <boneparent bone="Right_Leg_2" parent="Right_Arm" />
+    <boneparent bone="Right_Leg_1" parent="Right_Leg_2" />
+    <boneparent bone="Right_Foot" parent="Right_Leg_1" />
+    <boneparent bone="Left_Arm" parent="Back_Bone" />
+    <boneparent bone="Left_Leg_2" parent="Left_Arm" />
+    <boneparent bone="Left_Leg_1" parent="Left_Leg_2" />
+    <boneparent bone="Left_Foot" parent="Left_Leg_1" />
+  </bonehierarchy>
+  <animations />
+</skeleton>
