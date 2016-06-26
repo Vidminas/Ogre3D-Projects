@@ -8,11 +8,6 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-#*.dll
-
 # Fortran module files
 *.mod
 
@@ -21,11 +16,6 @@
 *.la
 *.a
 *.lib
-
-# Executables
-#*.exe
-*.out
-*.app
 
 # Ignore debug folders (containing large executables)
 Debug/
